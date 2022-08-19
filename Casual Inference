@@ -1,0 +1,9 @@
+When need causal inference?
+A: Scenario 1---When we need confidently consider that differences in sth are due solely to the feature or action we did.
+   Scenario 2---How one affects revenue/sales across customers
+   Scenario 3---Leverage the pricing elasticity from causal models to help inform pricing strategies. 
+
+Why casual inference?
+A: Casual inference bridges the gap between prediction and decision-making. This is useful because prediction models alone are of no help when reasoning what might happen if we change a system or take an action, even for prediction models with extremely high accuracy. 
+
+This is because going from prediction to a decision is not always straightforward. A typical supervised ML algorithm optimized for the difference between actual values and their predicited values, but a decision based on such a prediction is not always one that maximized the intended outcome when we take action. The very act of dection-making based on a prediction model may change the environment in ways that put us into untested territory, dampening the predctive power of the model.
